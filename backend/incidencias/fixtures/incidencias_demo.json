@@ -1,0 +1,77 @@
+[
+  {
+    "model": "incidencias.incidencia",
+    "pk": 1,
+    "fields": {
+      "titulo": "PC no enciende",
+      "descripcion": "El equipo no responde al botón de encendido.",
+      "categoria": "hardware",
+      "prioridad": "alta",
+      "estado": "pendiente",
+      "responsable": "soporte",
+      "ubicacion": "Laboratorio 1",
+      "fecha_limite": "2026-11-14",
+      "creado_en": "2026-11-13T09:00:00Z"
+    }
+  },
+  {
+    "model": "incidencias.incidencia",
+    "pk": 2,
+    "fields": {
+      "titulo": "Python no abre",
+      "descripcion": "La aplicación muestra un error al iniciar.",
+      "categoria": "software",
+      "prioridad": "media",
+      "estado": "en_proceso",
+      "responsable": "soporte",
+      "ubicacion": "Aula 2",
+      "fecha_limite": "2026-11-15",
+      "creado_en": "2026-11-13T09:05:00Z"
+    }
+  },
+  {
+    "model": "incidencias.incidencia",
+    "pk": 3,
+    "fields": {
+      "titulo": "Wi-Fi lento",
+      "descripcion": "La conexión se interrumpe y tiene baja velocidad.",
+      "categoria": "red",
+      "prioridad": "alta",
+      "estado": "pendiente",
+      "responsable": "lizy02",
+      "ubicacion": "Edificio principal",
+      "fecha_limite": "2026-11-18",
+      "creado_en": "2026-11-13T09:10:00Z"
+    }
+  },
+  {
+    "model": "incidencias.incidencia",
+    "pk": 4,
+    "fields": {
+      "titulo": "Teclado defectuoso",
+      "descripcion": "Algunas teclas no registran las pulsaciones.",
+      "categoria": "hardware",
+      "prioridad": "baja",
+      "estado": "resuelto",
+      "responsable": "soporte",
+      "ubicacion": "Laboratorio 3",
+      "fecha_limite": "2026-11-12",
+      "creado_en": "2026-11-13T09:15:00Z"
+    }
+  },
+  {
+    "model": "incidencias.incidencia",
+    "pk": 5,
+    "fields": {
+      "titulo": "Navegador desactualizado",
+      "descripcion": "El navegador requiere instalar la última versión.",
+      "categoria": "software",
+      "prioridad": "media",
+      "estado": "resuelto",
+      "responsable": "lizy02",
+      "ubicacion": "Aula 1",
+      "fecha_limite": "2026-11-14",
+      "creado_en": "2026-11-13T09:20:00Z"
+    }
+  }
+]
